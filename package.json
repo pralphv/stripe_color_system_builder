@@ -1,7 +1,8 @@
 {
-  "name": "le-react-redux-duck",
+  "name": "stripe_color_system_builder",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://pralphv.github.io/stripe-color-system-builder",
   "dependencies": {
     "@babel/core": "7.4.3",
     "@emotion/babel-preset-css-prop": "10.0.14",
@@ -32,6 +33,7 @@
     "eslint-plugin-react": "7.12.4",
     "file-loader": "3.0.1",
     "fs-extra": "7.0.1",
+    "gh-pages": "^2.1.1",
     "history": "4.9.0",
     "html-webpack-plugin": "4.0.0-beta.5",
     "identity-obj-proxy": "3.0.0",
@@ -77,7 +79,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --coverage"
+    "test": "node scripts/test.js --coverage",
+    "predeploy": "node scripts/build.js",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
