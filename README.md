@@ -1,1 +1,1 @@
-# stripe_color_system_clone
+# stripe_color_system_builder
