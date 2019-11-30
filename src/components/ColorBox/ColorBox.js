@@ -27,6 +27,7 @@ function ColorBox({ lch, active, onClick, id, contrast, isInputBox = false }) {
     height: "40px",
     color: `${fontColor}`,
     display: "table-cell",
+    "verticalAlign": "bottom"
   };
 
   if (active) {
@@ -38,7 +39,7 @@ function ColorBox({ lch, active, onClick, id, contrast, isInputBox = false }) {
   }
 
   return (
-    <div style={{display: "table-cell"}}>
+    <div style={{ display: "table-cell" }}>
       <CopyToClipboard text={`${lch.hex}`} onCopy={handleOnCopy}>
         <div
           style={boxStyle}
@@ -48,7 +49,7 @@ function ColorBox({ lch, active, onClick, id, contrast, isInputBox = false }) {
           {contrast && roundDown(contrast)}
         </div>
       </CopyToClipboard>
-      <PopUpBox msg="Copied to clipboard" show={copied}/>
+      <PopUpBox msg="Copied to clipboard" show={copied} />
     </div>
   );
 }

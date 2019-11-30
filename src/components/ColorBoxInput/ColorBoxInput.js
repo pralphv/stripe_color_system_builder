@@ -4,13 +4,13 @@ import ColorBox from "../ColorBox";
 
 const ColorBoxInput = ({ lch, onClick, id, active }) => {
   return (
-    <ColorBox
-      lch={lch}
-      onClick={onClick}
-      id={id}
-      active={active}
-      isInputBox={true}
-    />
+      <ColorBox
+        lch={lch}
+        onClick={onClick}
+        id={id}
+        active={active}
+        isInputBox={true}
+      />
   );
 };
 
@@ -18,7 +18,7 @@ ColorBoxInput.propTypes = {
   lch: PropTypes.object.isRequired,
   onClick: PropTypes.func.isRequired,
   id: PropTypes.string.isRequired,
-  active: PropTypes.bool.isRequired,
+  active: PropTypes.bool.isRequired
 };
 
 export default ColorBoxInput;

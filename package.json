@@ -2,7 +2,7 @@
   "name": "stripe_color_system_builder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://pralphv.github.io/stripe-color-system-builder",
+  "homepage": "https://pralphv.github.io/stripe_color_system_builder/",
   "dependencies": {
     "@babel/core": "7.4.3",
     "@emotion/babel-preset-css-prop": "10.0.14",
