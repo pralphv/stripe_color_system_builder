@@ -14,15 +14,16 @@ const logger = createLogger({
 
 const middleWares = [thunk, logger, ...customMiddlewares];
 
-const loadedState = localStorageUtils.loadFromLocalStorage();
 const store = createStore(
   higherOrderReducer(rootReducer),
-  loadedState,
+  localStorageUtils.loadFromLocalStorage(),
   applyMiddleware(...middleWares)
 );
+
 store.subscribe(
   throttle(() => {
     localStorageUtils.saveToLocalStorage(store.getState());
   }, 5000)
 );
+
 export default store;

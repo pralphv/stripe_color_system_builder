@@ -1,8 +1,7 @@
 import {
   ACTIVATE_COLOR_BOX,
   CHANGE_COLOR_BOX,
-  RECALCULATE_CONTRAST,
-  REMOVE_COLOR_BOX_ROW
+  RECALCULATE_CONTRAST
 } from "./types";
 import { ID_DELIMITER, NO_OF_GRADIENTS } from "../../constants/colorGradient";
 import { separateIdSubId } from "../../utils/helper";

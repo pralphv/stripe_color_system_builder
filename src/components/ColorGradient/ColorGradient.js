@@ -10,7 +10,6 @@ const ColorGradient = ({ colorGradient, handleOnClick, onClick, id }) => {
       {Object.entries(colorGradient).map(([key, value]) => (
         <ColorBox
           lch={value.lch}
-          handleOnClick={handleOnClick} 
           key={`${key}-gradient`}
           active={value.active}
           onClick={onClick}
