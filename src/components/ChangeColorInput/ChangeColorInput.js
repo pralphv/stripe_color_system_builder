@@ -15,9 +15,7 @@ const ChangeColorInput = ({ lch, changeColorBox, colorInputChanged }) => {
     // however there are multiple actions
     // and i dont want to recalculate
     let hex = e.hex || e.target.value;
-    if (hex[0] === "#" && hex[1] === "#") {
-      hex = hex.substr(1, hex.length);
-    }
+    hex = hex.substr(hex.length - 7, hex.length)
     let lchObj = { hex: hex };
     lchObj = lchObjAddLch(lchObj);
     changeColorBox(lchObj);
