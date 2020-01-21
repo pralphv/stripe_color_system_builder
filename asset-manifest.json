@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/stripe_color_system_builder/static/css/main.4360b26d.chunk.css",
-    "main.js": "/stripe_color_system_builder/static/js/main.9ea67c8a.chunk.js",
-    "main.js.map": "/stripe_color_system_builder/static/js/main.9ea67c8a.chunk.js.map",
+    "main.js": "/stripe_color_system_builder/static/js/main.b6001019.chunk.js",
+    "main.js.map": "/stripe_color_system_builder/static/js/main.b6001019.chunk.js.map",
     "runtime~main.js": "/stripe_color_system_builder/static/js/runtime~main.1a729a55.js",
     "runtime~main.js.map": "/stripe_color_system_builder/static/js/runtime~main.1a729a55.js.map",
     "static/js/2.cebc0e14.chunk.js": "/stripe_color_system_builder/static/js/2.cebc0e14.chunk.js",
     "static/js/2.cebc0e14.chunk.js.map": "/stripe_color_system_builder/static/js/2.cebc0e14.chunk.js.map",
     "index.html": "/stripe_color_system_builder/index.html",
-    "precache-manifest.543035dfcec56423b5abaa381754d9e4.js": "/stripe_color_system_builder/precache-manifest.543035dfcec56423b5abaa381754d9e4.js",
+    "precache-manifest.ddbd1bd26da6bdb2b5d7368bbdbcbfbd.js": "/stripe_color_system_builder/precache-manifest.ddbd1bd26da6bdb2b5d7368bbdbcbfbd.js",
     "service-worker.js": "/stripe_color_system_builder/service-worker.js",
     "static/css/main.4360b26d.chunk.css.map": "/stripe_color_system_builder/static/css/main.4360b26d.chunk.css.map"
   }
