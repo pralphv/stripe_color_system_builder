@@ -1,9 +1,10 @@
-import { MUI_SAMPLE } from "../constants/slots";
+import { MUI_SAMPLE, STRIPE_SAMPLE } from "../constants/slots";
 
 const LOCAL_STORAGE_SAVE_SLOT = "custom";
 
 export function saveToLocalStorage(state) {
   let saveSlot;
+  console.log(state)
   try {
     saveSlot = state.activeSaveSlot.activeSaveSlot;
   } catch {
@@ -20,6 +21,9 @@ export function loadFromLocalStorage(slot = null) {
     let data = localStorage.getItem(slot);
     if (slot === "mui" && !data) {
       return MUI_SAMPLE;
+    }
+    if (slot === "stripe" && !data) {
+      return STRIPE_SAMPLE
     }
     if (data !== null) {
       return JSON.parse(data);

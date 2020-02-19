@@ -19,6 +19,10 @@ export default function higherOrderReducer(reducers) {
       case resetStateTypes.RESET:
         if (state.activeSaveSlot.activeSaveSlot === slotsConstants.SLOT_MUI) {
           return slotsConstants.MUI_SAMPLE;
+        } else if (
+          state.activeSaveSlot.activeSaveSlot === slotsConstants.SLOT_STRIPE
+        ) {
+          return slotsConstants.STRIPE_SAMPLE;
         } else {
           return slotsConstants.CUSTOM_INIT;
         }

@@ -10,11 +10,9 @@ const initState = {
   activeSaveSlot: "custom"
 };
 
-
 export default function loadSlot(state = initState, action) {
   // dont make deep nested states ever again
   switch (action.type) {
-
     default:
       return state;
   }

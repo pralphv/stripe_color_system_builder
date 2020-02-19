@@ -32,6 +32,7 @@ function SavedOptions({ loadSlot }) {
       >
         <MenuItem value={slotsConstants.SLOT_CUSTOM}>Custom</MenuItem>
         <MenuItem value={slotsConstants.SLOT_MUI}>Material-UI</MenuItem>
+        <MenuItem value={slotsConstants.SLOT_STRIPE}>Stripe</MenuItem>
       </Select>
     </FormControl>
   );

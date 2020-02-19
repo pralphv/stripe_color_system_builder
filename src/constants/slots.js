@@ -1,5 +1,6 @@
 export const SLOT_CUSTOM = "custom";
 export const SLOT_MUI = "mui";
+export const SLOT_STRIPE = "stripe";
 
 export const MUI_SAMPLE = {
   loading: { loading: false },
@@ -3432,6 +3433,1597 @@ export const MUI_SAMPLE = {
   backgroundColor: {
     backgroundColor: "#ffffff"
   }
+};
+
+export const STRIPE_SAMPLE = {
+  activeSaveSlot: { activeSaveSlot: "stripe" },
+  colorBox: {
+    activeColorBoxId: "0@0",
+    colorBoxRows: {
+      "0": {
+        colorInput: {
+          lch: {
+            l: 11,
+            c: 14,
+            h: 285,
+            hex: "#161c2f",
+            id: "0",
+            lLimit: {
+              lower: 0,
+              upper: 100
+            },
+            backgroundColor: "#ffffff"
+          },
+          active: false
+        },
+        colorGradient: {
+          "0": {
+            active: false,
+            lch: {
+              l: 11,
+              c: 14,
+              h: 285,
+              hex: "#161c2f",
+              id: "0@0",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 16.91824673343915
+          },
+          "1": {
+            active: false,
+            lch: {
+              l: 17,
+              c: 13,
+              h: 285,
+              hex: "#252a3d",
+              id: "0@1",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 14.215766232031879
+          },
+          "2": {
+            active: false,
+            lch: {
+              l: 24,
+              c: 11,
+              h: 282,
+              hex: "#343949",
+              id: "0@2",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 11.491286080697245
+          },
+          "3": {
+            active: false,
+            lch: {
+              l: 33,
+              c: 12,
+              h: 280,
+              hex: "#464d60",
+              id: "0@3",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 8.430773168698195
+          },
+          "4": {
+            active: false,
+            lch: {
+              l: 44,
+              c: 12,
+              h: 276,
+              hex: "#60697d",
+              id: "0@4",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 5.505852721127971
+          },
+          "5": {
+            active: false,
+            lch: {
+              l: 56,
+              c: 10,
+              h: 265,
+              hex: "#7b8797",
+              id: "0@5",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 3.649220870181153
+          },
+          "6": {
+            active: false,
+            lch: {
+              l: 66,
+              c: 9,
+              h: 273,
+              hex: "#9aa2b2",
+              id: "0@6",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 2.5656665154501885
+          },
+          "7": {
+            active: false,
+            lch: {
+              l: 78,
+              c: 7,
+              h: 262,
+              hex: "#b8c1cc",
+              id: "0@7",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.8200756772343567
+          },
+          "8": {
+            active: false,
+            lch: {
+              l: 91,
+              c: 4,
+              h: 248,
+              hex: "#dfe7ed",
+              id: "0@8",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.2506815046182762
+          },
+          "9": {
+            active: false,
+            lch: {
+              l: 98,
+              c: 3,
+              h: 284,
+              hex: "#f8f9ff",
+              id: "0@9",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.0507584154195493
+          }
+        }
+      },
+      "1": {
+        colorInput: {
+          lch: {
+            l: 5,
+            c: 15,
+            h: 282,
+            hex: "#061025",
+            id: "1",
+            lLimit: {
+              lower: 0,
+              upper: 100
+            },
+            backgroundColor: "#ffffff"
+          },
+          active: false
+        },
+        colorGradient: {
+          "0": {
+            active: false,
+            lch: {
+              l: 11,
+              c: 25,
+              h: 289,
+              hex: "#101c3e",
+              id: "1@0",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 16.69723216595637
+          },
+          "1": {
+            active: false,
+            lch: {
+              l: 18,
+              c: 34,
+              h: 294,
+              hex: "#1f2759",
+              id: "1@1",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 14.06825328753253
+          },
+          "2": {
+            active: false,
+            lch: {
+              l: 25,
+              c: 48,
+              h: 295,
+              hex: "#29357e",
+              id: "1@2",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 11.024801460228378
+          },
+          "3": {
+            active: false,
+            lch: {
+              l: 33,
+              c: 59,
+              h: 296,
+              hex: "#3443a2",
+              id: "1@3",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 8.499953433639469
+          },
+          "4": {
+            active: false,
+            lch: {
+              l: 47,
+              c: 70,
+              h: 295,
+              hex: "#5063da",
+              id: "1@4",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 5.074643307411878
+          },
+          "5": {
+            active: false,
+            lch: {
+              l: 57,
+              c: 62,
+              h: 290,
+              hex: "#6381ed",
+              id: "1@5",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 3.563237079945972
+          },
+          "6": {
+            active: false,
+            lch: {
+              l: 66,
+              c: 48,
+              h: 279,
+              hex: "#70a2f6",
+              id: "1@6",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 2.564777334250862
+          },
+          "7": {
+            active: false,
+            lch: {
+              l: 79,
+              c: 32,
+              h: 270,
+              hex: "#9cc6ff",
+              id: "1@7",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.7594987551794221
+          },
+          "8": {
+            active: false,
+            lch: {
+              l: 91,
+              c: 14,
+              h: 254,
+              hex: "#d0e9ff",
+              id: "1@8",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.2513746713721086
+          },
+          "9": {
+            active: false,
+            lch: {
+              l: 98,
+              c: 4,
+              h: 230,
+              hex: "#f1fbff",
+              id: "1@9",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.050891864526072
+          }
+        }
+      },
+      "2": {
+        colorInput: {
+          lch: {
+            l: 10,
+            c: 15,
+            h: 258,
+            hex: "#021e2f",
+            id: "2",
+            lLimit: {
+              lower: 0,
+              upper: 100
+            },
+            backgroundColor: "#ffffff"
+          },
+          active: false
+        },
+        colorGradient: {
+          "0": {
+            active: false,
+            lch: {
+              l: 10,
+              c: 15,
+              h: 258,
+              hex: "#021e2f",
+              id: "2@0",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 17.082368974449583
+          },
+          "1": {
+            active: false,
+            lch: {
+              l: 17,
+              c: 22,
+              h: 269,
+              hex: "#082c49",
+              id: "2@1",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 14.316826899222178
+          },
+          "2": {
+            active: false,
+            lch: {
+              l: 25,
+              c: 33,
+              h: 276,
+              hex: "#043d6d",
+              id: "2@2",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 11.090660019817758
+          },
+          "3": {
+            active: false,
+            lch: {
+              l: 33,
+              c: 40,
+              h: 277,
+              hex: "#044e8c",
+              id: "2@3",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 8.489623141113364
+          },
+          "4": {
+            active: false,
+            lch: {
+              l: 45,
+              c: 43,
+              h: 270,
+              hex: "#096eb1",
+              id: "2@4",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 5.416765322232456
+          },
+          "5": {
+            active: false,
+            lch: {
+              l: 55,
+              c: 38,
+              h: 259,
+              hex: "#2e8cc6",
+              id: "2@5",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 3.6953320164882464
+          },
+          "6": {
+            active: false,
+            lch: {
+              l: 67,
+              c: 39,
+              h: 250,
+              hex: "#43aee5",
+              id: "2@6",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 2.492727271693976
+          },
+          "7": {
+            active: false,
+            lch: {
+              l: 78,
+              c: 30,
+              h: 232,
+              hex: "#72cceb",
+              id: "2@7",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.8178262094069366
+          },
+          "8": {
+            active: false,
+            lch: {
+              l: 91,
+              c: 18,
+              h: 221,
+              hex: "#bceffc",
+              id: "2@8",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.2433003134377456
+          },
+          "9": {
+            active: false,
+            lch: {
+              l: 98,
+              c: 6,
+              h: 199,
+              hex: "#ecfdfd",
+              id: "2@9",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.048162829217224
+          }
+        }
+      },
+      "3": {
+        colorInput: {
+          lch: {
+            l: 11,
+            c: 11,
+            h: 212,
+            hex: "#032125",
+            id: "3",
+            lLimit: {
+              lower: 0,
+              upper: 100
+            },
+            backgroundColor: "#ffffff"
+          },
+          active: false
+        },
+        colorGradient: {
+          "0": {
+            active: false,
+            lch: {
+              l: 10,
+              c: 10,
+              h: 210,
+              hex: "#052023",
+              id: "3@0",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 16.972061770299554
+          },
+          "1": {
+            active: false,
+            lch: {
+              l: 18,
+              c: 15,
+              h: 191,
+              hex: "#06312f",
+              id: "3@1",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 14.111804244341775
+          },
+          "2": {
+            active: false,
+            lch: {
+              l: 24,
+              c: 22,
+              h: 169,
+              hex: "#0c4233",
+              id: "3@2",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 11.396186621136769
+          },
+          "3": {
+            active: false,
+            lch: {
+              l: 33,
+              c: 31,
+              h: 160,
+              hex: "#0e583b",
+              id: "3@3",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 8.475550353029389
+          },
+          "4": {
+            active: false,
+            lch: {
+              l: 44,
+              c: 39,
+              h: 162,
+              hex: "#0f7652",
+              id: "3@4",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 5.6247124284117325
+          },
+          "5": {
+            active: false,
+            lch: {
+              l: 58,
+              c: 50,
+              h: 159,
+              hex: "#129e6a",
+              id: "3@5",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 3.4288037005900156
+          },
+          "6": {
+            active: false,
+            lch: {
+              l: 67,
+              c: 59,
+              h: 154,
+              hex: "#2db971",
+              id: "3@6",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 2.5332906641702215
+          },
+          "7": {
+            active: false,
+            lch: {
+              l: 78,
+              c: 52,
+              h: 146,
+              hex: "#79d387",
+              id: "3@7",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.829180700181033
+          },
+          "8": {
+            active: false,
+            lch: {
+              l: 91,
+              c: 29,
+              h: 142,
+              hex: "#c5f1c3",
+              id: "3@8",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.2541650055370295
+          },
+          "9": {
+            active: false,
+            lch: {
+              l: 98,
+              c: 12,
+              h: 140,
+              hex: "#edfeea",
+              id: "3@9",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.05180215745664
+          }
+        }
+      },
+      "4": {
+        colorInput: {
+          lch: {
+            l: 11,
+            c: 20,
+            h: 42,
+            hex: "#331408",
+            id: "4",
+            lLimit: {
+              lower: 0,
+              upper: 100
+            },
+            backgroundColor: "#ffffff"
+          },
+          active: false
+        },
+        colorGradient: {
+          "0": {
+            active: false,
+            lch: {
+              l: 11,
+              c: 20,
+              h: 42,
+              hex: "#331408",
+              id: "4@0",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 16.876549890464585
+          },
+          "1": {
+            active: false,
+            lch: {
+              l: 18,
+              c: 30,
+              h: 42,
+              hex: "#4e1c0f",
+              id: "4@1",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 14.02862102487286
+          },
+          "2": {
+            active: false,
+            lch: {
+              l: 25,
+              c: 43,
+              h: 47,
+              hex: "#6a250b",
+              id: "4@2",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 11.156600500079653
+          },
+          "3": {
+            active: false,
+            lch: {
+              l: 34,
+              c: 59,
+              h: 50,
+              hex: "#8d3001",
+              id: "4@3",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 8.216723406392445
+          },
+          "4": {
+            active: false,
+            lch: {
+              l: 45,
+              c: 68,
+              h: 54,
+              hex: "#b34a02",
+              id: "4@4",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 5.388581551951799
+          },
+          "5": {
+            active: false,
+            lch: {
+              l: 57,
+              c: 69,
+              h: 61,
+              hex: "#d06e13",
+              id: "4@5",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 3.5462460391808976
+          },
+          "6": {
+            active: false,
+            lch: {
+              l: 66,
+              c: 63,
+              h: 67,
+              hex: "#e28e36",
+              id: "4@6",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 2.5747224413049645
+          },
+          "7": {
+            active: false,
+            lch: {
+              l: 78,
+              c: 47,
+              h: 78,
+              hex: "#ecb86b",
+              id: "4@7",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.804887118146322
+          },
+          "8": {
+            active: false,
+            lch: {
+              l: 90,
+              c: 27,
+              h: 87,
+              hex: "#f9e0b0",
+              id: "4@8",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.2869912653886075
+          },
+          "9": {
+            active: false,
+            lch: {
+              l: 97,
+              c: 9,
+              h: 102,
+              hex: "#faf7e6",
+              id: "4@9",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.0762751790213942
+          }
+        }
+      },
+      "5": {
+        colorInput: {
+          lch: {
+            l: 11,
+            c: 22,
+            h: 25,
+            hex: "#381011",
+            id: "5",
+            lLimit: {
+              lower: 0,
+              upper: 100
+            },
+            backgroundColor: "#ffffff"
+          },
+          active: false
+        },
+        colorGradient: {
+          "0": {
+            active: false,
+            lch: {
+              l: 11,
+              c: 22,
+              h: 25,
+              hex: "#381011",
+              id: "5@0",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 16.795146970906536
+          },
+          "1": {
+            active: false,
+            lch: {
+              l: 17,
+              c: 32,
+              h: 27,
+              hex: "#511517",
+              id: "5@1",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 14.29053030666398
+          },
+          "2": {
+            active: false,
+            lch: {
+              l: 25,
+              c: 43,
+              h: 30,
+              hex: "#731c1e",
+              id: "5@2",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 10.97283817353338
+          },
+          "3": {
+            active: false,
+            lch: {
+              l: 34,
+              c: 53,
+              h: 35,
+              hex: "#922921",
+              id: "5@3",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 8.198850116583047
+          },
+          "4": {
+            active: false,
+            lch: {
+              l: 45,
+              c: 61,
+              h: 41,
+              hex: "#b9442a",
+              id: "5@4",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 5.352855275599386
+          },
+          "5": {
+            active: false,
+            lch: {
+              l: 58,
+              c: 65,
+              h: 42,
+              hex: "#e36241",
+              id: "5@5",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 3.4485123029615465
+          },
+          "6": {
+            active: false,
+            lch: {
+              l: 67,
+              c: 60,
+              h: 52,
+              hex: "#f3874f",
+              id: "5@6",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 2.5031500643513316
+          },
+          "7": {
+            active: false,
+            lch: {
+              l: 77,
+              c: 43,
+              h: 62,
+              hex: "#f7af79",
+              id: "5@7",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.848117243141381
+          },
+          "8": {
+            active: false,
+            lch: {
+              l: 90,
+              c: 22,
+              h: 73,
+              hex: "#ffdebc",
+              id: "5@8",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.2784081721841103
+          },
+          "9": {
+            active: false,
+            lch: {
+              l: 98,
+              c: 8,
+              h: 94,
+              hex: "#fff9ea",
+              id: "5@9",
+              lLimit: {
+                lower: 0,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.0505055384160558
+          }
+        }
+      },
+      "6": {
+        colorInput: {
+          lch: {
+            l: 10,
+            c: 29,
+            h: 347,
+            hex: "#3a0525",
+            id: "6",
+            lLimit: {
+              lower: 10,
+              upper: 100
+            },
+            backgroundColor: "#ffffff"
+          },
+          active: false
+        },
+        colorGradient: {
+          "0": {
+            active: false,
+            lch: {
+              l: 10,
+              c: 29,
+              h: 347,
+              hex: "#3a0525",
+              id: "6@0",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 17.096373350169593
+          },
+          "1": {
+            active: false,
+            lch: {
+              l: 20,
+              c: 29,
+              h: 347,
+              hex: "#521D3A"
+            },
+            contrast: 13.161100422359883
+          },
+          "2": {
+            active: false,
+            lch: {
+              l: 30,
+              c: 29,
+              h: 347,
+              hex: "#6B3451"
+            },
+            contrast: 9.39524691298049
+          },
+          "3": {
+            active: false,
+            lch: {
+              l: 40,
+              c: 29,
+              h: 347,
+              hex: "#854C6A"
+            },
+            contrast: 6.48306795338552
+          },
+          "4": {
+            active: false,
+            lch: {
+              l: 50,
+              c: 29,
+              h: 347,
+              hex: "#A06583"
+            },
+            contrast: 4.4834169643819015
+          },
+          "5": {
+            active: false,
+            lch: {
+              l: 60,
+              c: 29,
+              h: 347,
+              hex: "#BC7E9D"
+            },
+            contrast: 3.1772548398099563
+          },
+          "6": {
+            active: false,
+            lch: {
+              l: 70,
+              c: 29,
+              h: 347,
+              hex: "#D899B8"
+            },
+            contrast: 2.2904716340214266
+          },
+          "7": {
+            active: false,
+            lch: {
+              l: 80,
+              c: 29,
+              h: 347,
+              hex: "#F5B4D3"
+            },
+            contrast: 1.7001806707648301
+          },
+          "8": {
+            active: false,
+            lch: {
+              l: 90,
+              c: 29,
+              h: 347,
+              hex: "#FFD0F0"
+            },
+            contrast: 1.3519947931293057
+          },
+          "9": {
+            active: false,
+            lch: {
+              l: 100,
+              c: 29,
+              h: 347,
+              hex: "#FFECFF"
+            },
+            contrast: 1.123344206850992
+          }
+        }
+      },
+      "7": {
+        colorInput: {
+          lch: {
+            l: 11,
+            c: 41,
+            h: 309,
+            hex: "#25104a",
+            id: "7",
+            lLimit: {
+              lower: 10,
+              upper: 100
+            },
+            backgroundColor: "#ffffff"
+          },
+          active: false
+        },
+        colorGradient: {
+          "0": {
+            active: false,
+            lch: {
+              l: 11,
+              c: 41,
+              h: 309,
+              hex: "#25104a",
+              id: "7@0",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 16.777694683726754
+          },
+          "1": {
+            active: false,
+            lch: {
+              l: 17,
+              c: 47,
+              h: 310,
+              hex: "#361a5f",
+              id: "7@1",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 14.287109839645975
+          },
+          "2": {
+            active: false,
+            lch: {
+              l: 25,
+              c: 53,
+              h: 313,
+              hex: "#512778",
+              id: "7@2",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 10.987361609059862
+          },
+          "3": {
+            active: false,
+            lch: {
+              l: 33,
+              c: 59,
+              h: 318,
+              hex: "#71308d",
+              id: "7@3",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 8.368065640107977
+          },
+          "4": {
+            active: false,
+            lch: {
+              l: 45,
+              c: 64,
+              h: 322,
+              hex: "#9a46ab",
+              id: "7@4",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 5.4714239434946235
+          },
+          "5": {
+            active: false,
+            lch: {
+              l: 57,
+              c: 66,
+              h: 326,
+              hex: "#c561ca",
+              id: "7@5",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 3.5372623368199525
+          },
+          "6": {
+            active: false,
+            lch: {
+              l: 67,
+              c: 57,
+              h: 331,
+              hex: "#e381d7",
+              id: "7@6",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 2.5037136137918035
+          },
+          "7": {
+            active: false,
+            lch: {
+              l: 78,
+              c: 38,
+              h: 332,
+              hex: "#efaae1",
+              id: "7@7",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.8249311886652524
+          },
+          "8": {
+            active: false,
+            lch: {
+              l: 91,
+              c: 19,
+              h: 331,
+              hex: "#fddbf7",
+              id: "7@8",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.2610933748858943
+          },
+          "9": {
+            active: false,
+            lch: {
+              l: 98,
+              c: 5,
+              h: 325,
+              hex: "#fff7ff",
+              id: "7@9",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.04998395003973
+          }
+        }
+      },
+      "8": {
+        colorInput: {
+          lch: {
+            l: 11,
+            c: 35,
+            h: 303,
+            hex: "#1d1647",
+            id: "8",
+            lLimit: {
+              lower: 10,
+              upper: 100
+            },
+            backgroundColor: "#ffffff"
+          },
+          active: false
+        },
+        colorGradient: {
+          "0": {
+            active: false,
+            lch: {
+              l: 11,
+              c: 36,
+              h: 303,
+              hex: "#1d1648",
+              id: "8@0",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 16.658974212637727
+          },
+          "1": {
+            active: false,
+            lch: {
+              l: 18,
+              c: 41,
+              h: 306,
+              hex: "#30205b",
+              id: "8@1",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 14.157176733832529
+          },
+          "2": {
+            active: false,
+            lch: {
+              l: 25,
+              c: 48,
+              h: 306,
+              hex: "#422d76",
+              id: "8@2",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 11.238325734909829
+          },
+          "3": {
+            active: false,
+            lch: {
+              l: 33,
+              c: 52,
+              h: 306,
+              hex: "#563e91",
+              id: "8@3",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 8.421548164940734
+          },
+          "4": {
+            active: false,
+            lch: {
+              l: 45,
+              c: 60,
+              h: 307,
+              hex: "#7957bb",
+              id: "8@4",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 5.393135428753219
+          },
+          "5": {
+            active: false,
+            lch: {
+              l: 58,
+              c: 58,
+              h: 305,
+              hex: "#977ade",
+              id: "8@5",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 3.4121592960261458
+          },
+          "6": {
+            active: false,
+            lch: {
+              l: 67,
+              c: 41,
+              h: 301,
+              hex: "#a999e3",
+              id: "8@6",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 2.514155108704565
+          },
+          "7": {
+            active: false,
+            lch: {
+              l: 77,
+              c: 24,
+              h: 294,
+              hex: "#bcbae7",
+              id: "8@7",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.8558220985625713
+          },
+          "8": {
+            active: false,
+            lch: {
+              l: 91,
+              c: 14,
+              h: 291,
+              hex: "#e2e2fc",
+              id: "8@8",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.2713443807377343
+          },
+          "9": {
+            active: false,
+            lch: {
+              l: 98,
+              c: 4,
+              h: 280,
+              hex: "#f6f8ff",
+              id: "8@9",
+              lLimit: {
+                lower: 10,
+                upper: 100
+              },
+              backgroundColor: "#ffffff"
+            },
+            contrast: 1.0611673692260293
+          }
+        }
+      }
+    }
+  },
+  changeColorInput: {
+    targetColorBoxId: "0@0",
+    lch: {
+      l: 11,
+      c: 14,
+      h: 285,
+      hex: "#161c2f",
+      id: "0@0",
+      lLimit: {
+        lower: 10,
+        upper: 100
+      },
+      backgroundColor: "#ffffff"
+    }
+  },
+  lLimit: {
+    lower: 10,
+    upper: 100
+  },
+  backgroundColor: {
+    backgroundColor: "#ffffff"
+  },
+  loading: {
+    loading: false
+  },
 };
 
 export const CUSTOM_INIT = {
