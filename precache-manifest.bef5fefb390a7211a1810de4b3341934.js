@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "775bc7abaf1043a86bbfc7eaae3c7651",
+    "revision": "b4b88b145cd3865551fe5a6f4e372ea5",
     "url": "/stripe_color_system_builder/index.html"
   },
   {
-    "revision": "68f957263178ea780709",
+    "revision": "15a7fa9063529dc4e817",
     "url": "/stripe_color_system_builder/static/css/main.4360b26d.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stripe_color_system_builder/static/js/2.cebc0e14.chunk.js"
   },
   {
-    "revision": "68f957263178ea780709",
-    "url": "/stripe_color_system_builder/static/js/main.b6001019.chunk.js"
+    "revision": "15a7fa9063529dc4e817",
+    "url": "/stripe_color_system_builder/static/js/main.c3b39acf.chunk.js"
   },
   {
     "revision": "fcf83ac46d3353cb4e47",
