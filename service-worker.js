@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/stripe_color_system_builder/precache-manifest.bef5fefb390a7211a1810de4b3341934.js"
+  "/stripe_color_system_builder/precache-manifest.c9c533a6332c916888255b5714d7ed78.js"
 );
 
 self.addEventListener('message', (event) => {
