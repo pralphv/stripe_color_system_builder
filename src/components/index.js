@@ -6,3 +6,4 @@ export { default as BackgroundColorPicker } from './BackgroundColorPicker';
 export { default as LineGraph } from './LineGraph';
 export { default as LineGraphColumn } from './LineGraphColumn';
 export { default as LoadingScreen } from './LoadingScreen';
+export { default as MuiIcon } from './MuiIcon';

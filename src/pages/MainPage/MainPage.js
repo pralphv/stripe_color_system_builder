@@ -27,14 +27,6 @@ const useStyles = makeStyles(theme => ({
   },
   colorGradient: {
     width: 280
-  },
-  footer: {
-    marginTop: 20,
-    display: "inline-block",
-  },
-  footerContainer: {
-    margin: "auto",
-    width: "50%"
   }
 }));
 
@@ -44,44 +36,50 @@ function MainPage() {
   return (
     <div>
       <LoadingScreenContainer />
-      <Grid container>
-        <Grid item xs={12}>
-          <Grid container spacing={2} justify="center">
-            <Grid item>
-              <Paper className={`${classes.paper} ${classes.colorGradient}`}>
-                <div>
-                  <AddColorBoxButtonContainer />
-                  <RemoveColorBoxButtonContainer />
-                  <SavedOptionsContainer />
-                  <ResetButtonContainer/>
-                  <ColorBoxRowContainer />
-                </div>
-              </Paper>
-            </Grid>
-            <Grid item xs={6}>
-              <Grid container justify="center" spacing={2}>
-                <Grid item>
-                  <Grid container spacing={2}>
-                    <Grid item>
-                      <Paper className={`${classes.paper} ${classes.settings}`}>
-                        <div>
-                          <ChangeColorInputContainer />
-                          <LchSlidersContainer />
-                        </div>
-                      </Paper>
-                    </Grid>
-                    <Grid item>
-                      <Paper className={`${classes.paper} ${classes.settings}`}>
-                        <div>
-                          <BackgroundColorPickerContainer />
-                          {/*This and ChangeColorInputContainer are the same*/}
-                          {/*Could be reused*/}
-                          <LLimitSliderContainer />
-                        </div>
-                      </Paper>
-                    </Grid>
-                    <Grid item>
-                      <LineGraphContainer />
+      <div style={{ minHeight: "100vh" }}>
+        <Grid container>
+          <Grid item xs={12}>
+            <Grid container spacing={2} justify="center">
+              <Grid item>
+                <Paper className={`${classes.paper} ${classes.colorGradient}`}>
+                  <div>
+                    <AddColorBoxButtonContainer />
+                    <RemoveColorBoxButtonContainer />
+                    <SavedOptionsContainer />
+                    <ResetButtonContainer />
+                    <ColorBoxRowContainer />
+                  </div>
+                </Paper>
+              </Grid>
+              <Grid item xs={6}>
+                <Grid container justify="center" spacing={2}>
+                  <Grid item>
+                    <Grid container spacing={2}>
+                      <Grid item>
+                        <Paper
+                          className={`${classes.paper} ${classes.settings}`}
+                        >
+                          <div>
+                            <ChangeColorInputContainer />
+                            <LchSlidersContainer />
+                          </div>
+                        </Paper>
+                      </Grid>
+                      <Grid item>
+                        <Paper
+                          className={`${classes.paper} ${classes.settings}`}
+                        >
+                          <div>
+                            <BackgroundColorPickerContainer />
+                            {/*This and ChangeColorInputContainer are the same*/}
+                            {/*Could be reused*/}
+                            <LLimitSliderContainer />
+                          </div>
+                        </Paper>
+                      </Grid>
+                      <Grid item>
+                        <LineGraphContainer />
+                      </Grid>
                     </Grid>
                   </Grid>
                 </Grid>
@@ -89,14 +87,9 @@ function MainPage() {
             </Grid>
           </Grid>
         </Grid>
-      </Grid>
-      <div className={classes.footerContainer}>
-
-      <Paper className={`${classes.paper} ${classes.footer}`}>
-        <Footer/>
-      </Paper>
       </div>
 
+      <Footer />
     </div>
   );
 }

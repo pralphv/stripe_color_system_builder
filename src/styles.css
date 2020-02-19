@@ -1,6 +1,6 @@
 body {
     background: #121212;
-    overflow-x: hidden;
+    margin: 0;
 }
 html{
     overflow-x: hidden;
