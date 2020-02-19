@@ -22,7 +22,7 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(1),
     lineHeight: "2em",
     fontWeight: "300",
-    color: "#636da4",
+    color: "#9EA5C7",
     cursor: "pointer",
     "&:hover": {
       opacity: "100%",

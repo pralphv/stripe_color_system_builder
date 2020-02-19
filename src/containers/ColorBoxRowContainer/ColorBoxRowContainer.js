@@ -7,8 +7,11 @@ import { colorBoxSelectors } from "../../state/colorBox";
 import { backgroundColorSelectors } from "../../state/backgroundColor";
 import { changeColorInputActions } from "../../state/changeColorInput";
 
-export const ColorBoxRowContainer = props => {
-  const { focusColorBox, colorBoxRows, backgroundColor } = props;
+export function ColorBoxRowContainer({
+  focusColorBox,
+  colorBoxRows,
+  backgroundColor
+}) {
   return (
     <ColorBoxRow
       backgroundColor={backgroundColor}
@@ -16,7 +19,7 @@ export const ColorBoxRowContainer = props => {
       onClick={focusColorBox}
     />
   );
-};
+}
 
 // PostListContainer.propTypes = {
 //   posts: PropTypes.arrayOf(PropTypes.shape({})),
@@ -32,9 +35,6 @@ const mapStateToProps = state => ({
   backgroundColor: backgroundColorSelectors.selectorBackgroundColor(state)
 });
 
-export default connect(
-  mapStateToProps,
-  {
-    focusColorBox: changeColorInputActions.focusColorBox
-  }
-)(ColorBoxRowContainer);
+export default connect(mapStateToProps, {
+  focusColorBox: changeColorInputActions.focusColorBox
+})(ColorBoxRowContainer);
